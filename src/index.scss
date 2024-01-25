@@ -3,12 +3,12 @@
 }
 
 .task__item {
-	margin: 4px 8px;
-	border: 1px solid #ddd;
-	display: grid;
-	grid-template-columns: 20px auto 50px 50px;
-	align-items: center;
-	text-align: left;
+    margin: 4px 8px;
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: auto 1fr 50px;
+    align-items: center;
+    text-align: left;
 }
 
 .completed {
@@ -19,6 +19,7 @@
 div[draggable="true"] {
 	border: 1px solid #7db1ff;
 	margin-top: 10px;
+	border-radius: 4px;
 	cursor: grab;
 }
 
@@ -54,8 +55,8 @@ input.task__input {
 .flex__wrap {
 	display: flex;
 	gap: 15px;
-	margin-top: 25px;
-	margin-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	align-items: center;
 }
 

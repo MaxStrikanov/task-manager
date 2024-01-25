@@ -30,7 +30,7 @@ const Task = ({ todo, index, editTodo, deleteTodo, toggleComplete, moveTodo }) =
 						type="checkbox"
 						checked={todo.completed}
 						onChange={() => toggleComplete(todo.id)}
-							id={todo.id}
+						id={todo.id}
 					/>
 						<label className='check__box' for={todo.id}></label>
 					</div>
